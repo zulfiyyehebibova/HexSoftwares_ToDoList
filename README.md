@@ -18,4 +18,5 @@ A functional and interactive To-Do List application built as part of my HexSoftw
 👉 https://zulfiyyehebibova.github.io/HexSoftwares_ToDoList/
 
 🎓 Internship
+
 This project was built during the HexSoftwares internship program as part of web development tasks. It helped strengthen my skills in JavaScript, DOM manipulation, and browser storage.
