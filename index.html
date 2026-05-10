@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+        <div class="container">
+      <h1>To Do List App 📝</h1>
+ 
+      <div class="input-area">
+        <input type="text" id="taskInput" placeholder="Add new task..." />
+        <button id="addBtn">Add</button>
+      </div>
+ 
+      <div class="lists">
+        <div class="list-section">
+          <h2>🟡 To Do</h2>
+          <ul id="todoList"></ul>
+        </div>
+ 
+        <div class="list-section">
+          <h2>🟠 In Progress</h2>
+          <ul id="progressList"></ul>
+        </div>
+ 
+        <div class="list-section">
+          <h2>🟢 Done</h2>
+          <ul id="doneList"></ul>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
